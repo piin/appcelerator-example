@@ -1,0 +1,189 @@
+".container": {
+	backgroundColor:"white",
+	// backgroundImage: "images/Soccer_Back.png",
+	fullscreen: true
+}
+
+// Start Top Bar
+
+"#SC_Logo":{
+	backgroundColor:"#DEDEDE",
+	bottom:5,
+	right:5,
+	width:244,
+	height:25
+}
+
+"#resetBTN":{
+	backgroundImage:"images/Restart.png",
+	backgroundSelectedImage:"images/Restart_Selected.png",
+	width:20,
+	height:25
+}
+
+"#settingsButton":{
+	backgroundImage:"images/Gear.png",
+	backgroundSelectedImage:"images/Gear_Selected.png",
+	width:20,
+	height:20
+}
+
+// End Top Bar
+
+// Score Left and Right
+"#scoreBackR":{
+	opacity: 0,
+	bottom:53,
+	right:-200,
+	width:270,
+	height:245
+}
+
+"#scoreBackL":{
+	opacity: 0,
+	bottom:53,
+	left:-200,
+	width:270,
+	height:245
+}
+
+"#backSectionL":{
+	backgroundColor:"#000000",
+	opacity:0.4,
+	width:270,
+	height:245
+}
+
+"#backSectionR":{
+	backgroundColor:"#000000",
+	opacity:0.4,
+	width:270,
+	height:245
+}
+
+"#scoreRText":{
+	color:"#D8D9DB",
+	textAlign: "center",
+	width:"100%",
+	font: {
+        fontFamily: "Arial",
+        fontSize: '170px',
+        fontWeight: "bold"
+   },
+   top:18,
+   editable: false
+}
+
+"#scoreLText":{
+	color:"#D8D9DB",
+	textAlign: "center",
+	width:"100%",
+	font: {
+        fontFamily: "Arial",
+        fontSize: '170px',
+        fontWeight: "bold"
+   },
+   top:18,
+   editable: false
+}
+
+"#topTitleBarL":{
+	backgroundColor:"#F22E3E",
+	top:0,
+	width:270,
+	height:31
+}
+
+"#topTitleBarR":{
+	backgroundColor:"#6C9BD9",
+	top:0,
+	width:270,
+	height:31
+}
+
+"#team1Label":{
+	color:"#fff",
+	textAlign: "center",
+	width:"100%",
+	font: {
+        fontFamily: "Arial",
+        fontSize: '16px',
+        fontWeight: "bold"
+    }
+}
+
+"#team2Label":{
+	color:"#fff",
+	textAlign: "center",
+	width:"100%",
+	font: {
+        fontFamily: "Arial",
+        fontSize: '16px',
+        fontWeight: "bold"
+    }
+}
+
+"#plusTeam1":{
+	backgroundImage:"images/Plus.png",
+	backgroundSelectedImage:"images/Plus_Selected.png",
+	width:45,
+	height:46,
+	bottom:10,
+	right:52
+}
+
+"#minusTeam1":{
+	backgroundImage:"images/Minus.png",
+	backgroundSelectedImage:"images/Minus_Selected.png",
+	width:45,
+	height:46,
+	bottom:10,
+	left:52
+}
+
+"#plusTeam2":{
+	backgroundImage:"images/Plus.png",
+	backgroundSelectedImage:"images/Plus_Selected.png",
+	width:45,
+	height:46,
+	bottom:10,
+	right:52
+}
+
+"#minusTeam2":{
+	backgroundImage:"images/Minus.png",
+	backgroundSelectedImage:"images/Minus_Selected.png",
+	width:45,
+	height:46,
+	bottom:10,
+	left:52
+}
+
+"#vsLabel":{
+	font: {
+        fontFamily: "Arial",
+        fontSize: '18px',
+        fontWeight: "bold"
+    },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#fff"
+}
+".responseView": {
+	backgroundColor: "red",
+	bottom: 0,
+	left: 0,
+	right: 0,
+	height: "100px",
+	layout: "horizontal"
+}
+"#responseLabel": {
+	color: "white",
+	font: {
+		fontFamily: "Arial",
+        fontSize: '12px',
+	}
+}
+
+// End Score Left and Right

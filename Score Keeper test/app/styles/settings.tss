@@ -1,0 +1,173 @@
+".container2" : {
+	backgroundColor:"white",
+	// backgroundImage: "images/Soccer_Back.png",
+	fullscreen: true
+}
+
+"#backgroundSpaceColor":{
+	backgroundColor:"#fff",
+	width: 648,
+	height: 272,
+	top: 37,
+	left: 10,
+	opacity: 0.8
+}
+
+"#gameSettings":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	color: "#fff",
+	top: 6,
+	font: {
+        fontFamily: "Arial",
+        fontSize: '20px'
+    }
+}
+
+"#theLabel":{
+	color: "#000",
+	top: 53,
+	left: 20,
+	font: {
+        fontFamily: "Arial",
+        fontSize: '15px',
+        fontWeight: "bold"
+    }
+}
+
+"#turnOffIdle":{
+	top: 48,
+	left: 220
+}
+
+"#soundLabel":{
+	color: "#000",
+	top: 53,
+	right: 85,
+	font: {
+        fontFamily: "Arial",
+        fontSize: '15px',
+        fontWeight: "bold"
+    }
+}
+
+"#turnOffSound":{
+	top: 48,
+	right: 15
+}
+
+"#increaseByLabel":{
+	color: "#000",
+	right:123,
+	top:95,
+	font: {
+        fontFamily: "Arial",
+        fontSize: '15px',
+        fontWeight: "bold"
+    }
+}
+
+"#increaseByNum":{
+	font:{fontSize:15, fontfamily:'Helvetica Neue', fontWeight: 'bold'},
+	top:90,
+	right: 15,
+	width: 60,
+	height: 30,
+	backgroundColor:"#fff",
+	textAlign: "right",
+	paddingRight: 5
+}
+
+"#backgroundColorLabel":{
+	color: "#000",
+	top: 95,
+	left: 20,
+	font: {
+        fontFamily: "Arial",
+        fontSize: '15px',
+        fontWeight: "bold"
+    }
+}
+
+"#redView":{
+	backgroundColor: "#FF9500",
+	width: 40,
+	height: 40,
+	top: 120,
+	left: 20
+}
+
+"#blueView":{
+	backgroundColor: "#8C075E",
+	width: 40,
+	height: 40,
+	top: 120,
+	left: 70
+}
+
+"#greenView":{
+	backgroundColor: "#4CD964",
+	width: 40,
+	height: 40,
+	top: 120,
+	left: 120
+}
+
+"#purpleView":{
+	backgroundColor: "#8E8E93",
+	width: 40,
+	height: 40,
+	top: 120,
+	left: 170
+}
+
+"#pinkView":{
+	backgroundColor: "#FA8EA5",
+	width: 40,
+	height: 40,
+	top: 120,
+	left: 220
+}
+
+"#soccerView":{
+	width: 115,
+	height: 60,
+	top: 168,
+	left: 20
+}
+
+"#footballView":{
+	width: 115,
+	height: 60,
+	top: 168,
+	left: 145
+}
+
+"#basketballView":{
+	width: 115,
+	height: 60,
+	top: 238,
+	left: 20
+}
+
+"#foosballView":{
+	width: 115,
+	height: 60,
+	top:238,
+	left: 145
+}
+
+"#lineItem":{
+	width: 2,
+	height: 255,
+	backgroundColor:"#5F5F5F",
+	top: 45,
+	opacity:0.1
+}
+
+"#closeBTN":{
+	top:2,
+	right:8,
+	color:"#FFF",
+	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN
+}

@@ -1,0 +1,39 @@
+<Alloy>
+	<Window class="container2" id="container2" exitOnClose="true" barColor="#000">
+	    <!-- Background -->
+        <View id="backgroundSpaceColor"/>
+        <Label id="gameSettings">SETTINGS</Label>
+        
+        <!-- Screen Lock -->
+        <Label id="theLabel">Disable Screen Lock:</Label>
+        <Switch id="turnOffIdle" value="true"/>
+        
+        <!-- Turn off Sound -->
+        <Label id="soundLabel">Sound Comments On/Off:</Label>
+        <Switch id="turnOffSound" value=""/>
+        
+        <!-- Increase by # of points -->
+        <Label id="increaseByLabel">Increase by amount:</Label>
+        <TextField id="increaseByNum" borderColor="#C5C5C5" value="1" keyboardType="Ti.UI.KEYBOARD_TYPE_NUMBERS_PUNCTUATION" />
+        
+        <!-- Background Color Chooser -->
+        <Label id="backgroundColorLabel">Choose Background Theme:</Label>
+        <View id="redView"></View>
+        <View id="blueView"></View>
+        <View id="greenView"></View>
+        <View id="purpleView"></View>
+        <View id="pinkView"></View>
+        
+        <!--Image backgrounds -->
+        <ImageView id="soccerView" onClick="updateBackground" image="images/soccer_thumb.png"></ImageView>
+        <ImageView id="footballView" onClick="updateBackground" image="images/football_thumb.png"></ImageView>
+        <ImageView id="basketballView" onClick="updateBackground" image="images/Basketball_Thumb.png"></ImageView>
+        <ImageView id="foosballView" onClick="updateBackground" image="images/Foosball_Thumb.png"></ImageView>
+                
+        <!-- Line Seperator -->
+        <View id="lineItem"/>
+        
+        <!-- Bottom Close Button -->
+        <Button id="closeBTN" title="Done" onClick="closeSettings"></Button>
+	</Window>
+</Alloy>

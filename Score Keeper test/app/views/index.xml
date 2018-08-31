@@ -1,0 +1,49 @@
+<Alloy>
+	<Window class="container" >
+		
+		<!--Top Toolbar-->
+        <Toolbar platform="ios" top="0" borderBottom="true" barColor="#F4F4F4">
+            <Items>
+                <!--Reset the Score-->
+                <Button id="resetBTN" />
+                <FlexSpace/>
+                <!-- Score Keeper Logo -->
+                <ImageView id="SC_Logo" image="images/SC_Logo_Long.png"></ImageView>
+                <FlexSpace/>
+                <!--Settings Button-->
+                <Button id="settingsButton" onClick="openSettings"></Button>
+            </Items>
+        </Toolbar> 
+        <!--End Top Toolbar-->
+        
+        <!--Score Left and Right-->
+        <View id="scoreBackR" onSwipe="determineSwipeRight">
+                <View id="backSectionR"></View>
+                <TextField id="scoreRText" value="0"></TextField>
+                <View id="topTitleBarR">
+                    <TextField id="team2Label" value="Red Team"></TextField>
+                </View>
+                <Button id="plusTeam2" title="" onClick="addPointRed"/>
+                <Button id="minusTeam2" title="" onClick="minusPointRed"/>
+        </View>
+        <View id="scoreBackL" onSwipe="determineSwipeLeft">
+                <View id="backSectionL"></View>
+                <TextField id="scoreLText" value="0"></TextField>
+                <View id="topTitleBarL">
+                    <TextField id="team1Label" value="Blue Team"></TextField>
+                </View>
+                <Button id="plusTeam1" title="" onClick="addPointBlue"/>
+                <Button id="minusTeam1" title="" onClick="minusPointBlue"/>
+        </View>
+        
+        <!--VS Label-->
+        <Label id="vsLabel" >VS</Label>
+        
+        <View class="responseView">
+        		<Button onClick="doTest" title="Test">Click me! </Button>
+        		<Label id="responseLabel"></Label>
+        </View>
+        
+		
+	</Window>
+</Alloy>
