@@ -10,24 +10,7 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-// Persistence
-var lib = require('persistence');
 
-alert(lib.info.get());
-// Install
-var db = Ti.Database.install('sksettings.sqlite', 'sksettingsV1');
-// Open
-var db = Ti.Database.open('sksettingsV1');
-
-var sql = db.execute("SELECT image FROM sksettings");
-var backgroundImage = sql.fieldByName("image");
-
-db.close();
-
-// Variables
-var redScore = 0;
-var blueScore = 0;
-var increaseBy = 1;
 // added during app creation. this will automatically login to
 // ACS for your application and then fire an event (see below)
 // when connected or errored. if you do not use ACS in your

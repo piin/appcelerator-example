@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>net.learningdojo.scorekeeper</id>
-    <name>Score Keeper Updated</name>
+    <id>com.unosquare.persistence</id>
+    <name>Persistence</name>
     <version>1.0</version>
-    <publisher>jeffbatt</publisher>
-    <url>http://www.learningdojo.net</url>
+    <publisher>jair.pinedo</publisher>
+    <url/>
     <description>undefined</description>
-    <copyright>2016 by jeffbatt</copyright>
+    <copyright>2018 by jair.pinedo</copyright>
     <icon>appicon.png</icon>
-    <fullscreen>true</fullscreen>
-    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>32d23470-b885-451c-9888-e7bee11feab3</guid>
+    <guid>91c35232-7cdc-4f49-9333-77ff39fe97d6</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="run-on-main-thread" type="bool">true</property>
     <ios>
         <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <use-app-thinning>true</use-app-thinning>
         <plist>
             <dict>
                 <key>UISupportedInterfaceOrientations~iphone</key>
                 <array>
-                    <string>UIInterfaceOrientationLandscapeLeft</string>
-                    <string>UIInterfaceOrientationLandscapeRight</string>
+                    <string>UIInterfaceOrientationPortrait</string>
                 </array>
                 <key>UISupportedInterfaceOrientations~ipad</key>
                 <array>
@@ -51,34 +51,36 @@
         <theme>default</theme>
     </mobileweb>
     <modules>
+        <module platform="android">hyperloop</module>
+        <module platform="iphone">hyperloop</module>
         <module platform="commonjs">ti.cloud</module>
     </modules>
     <deployment-targets>
         <target device="android">true</target>
         <target device="ipad">false</target>
         <target device="iphone">true</target>
-        <target device="mobileweb">true</target>
-        <target device="windows">false</target>
+        <target device="mobileweb">false</target>
     </deployment-targets>
-    <sdk-version>6.3.0.v20171031181249</sdk-version>
+    <sdk-version>6.3.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
+        <plugin>hyperloop</plugin>
     </plugins>
-    <property name="appc-app-id" type="string">5b8955719e8a6878bc8db05f</property>
+    <property name="appc-app-id" type="string">5b8988119e8a6878bc8db350</property>
     <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
     <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
-    <property name="acs-oauth-secret-development" type="string">ZUaKoeVGhKJ91XfGOj3Fy2ORUhbJl948</property>
-    <property name="acs-oauth-key-development" type="string">1Pj1sYm5lP7bUFVaaQ9PjFD8ZIQSvY1G</property>
-    <property name="acs-api-key-development" type="string">dLtNQjSqm8cfGNG7Xw7WZaKdXhGddhvA</property>
+    <property name="acs-oauth-secret-development" type="string">57DobwOOcI5IjqDDwL9umWmllIQ4TP2i</property>
+    <property name="acs-oauth-key-development" type="string">fRLOwPIoqWXCsokBdBYQVL9wqKSIzcQt</property>
+    <property name="acs-api-key-development" type="string">aKmMgoLj7DmqzQeFlVsNSFkE5roq0V16</property>
     <property name="acs-username-development" type="string">appc_app_user_dev</property>
-    <property name="acs-password-development" type="string">EwCFvHbCXawy2hcE6Z</property>
+    <property name="acs-password-development" type="string">zxpAae1TTdtqJy9qQK</property>
     <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
     <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
-    <property name="acs-oauth-secret-production" type="string">sroiUmbPqPby040H0LWv6QnShjfprqsS</property>
-    <property name="acs-oauth-key-production" type="string">lNlIMSHArE04wXJVRpOyi28Rrkaksmfm</property>
-    <property name="acs-api-key-production" type="string">M1tTnyqP5n8NBQQ520zhRY65fYmMEidk</property>
+    <property name="acs-oauth-secret-production" type="string">F4cAQHiMYEzcaTpVMeiu5yPePZ5htI1B</property>
+    <property name="acs-oauth-key-production" type="string">VWBLAP6VjbNqj1A69qJqsG0HWaSDswHG</property>
+    <property name="acs-api-key-production" type="string">PZRK8lTT6dtcprt8ZXz7cukQJLplWzlc</property>
     <property name="acs-username-production" type="string">appc_app_user</property>
-    <property name="acs-password-production" type="string">Ot1vxSns9Ku64St8PY</property>
-    <property name="appc-org-id" type="string">100001153</property>
-    <property name="appc-creator-user-id" type="string">79b0b97b-e2be-4ac6-a64b-1b3bfa28861d</property>
+    <property name="acs-password-production" type="string">mNYxrOTmw9FfLUuTRU</property>
+    <property name="appc-org-id" type="string">931445434441838</property>
+    <property name="appc-creator-user-id" type="string">e594f3f40d5bebcb70bcb50ebfd55bc6</property>
 </ti:app>

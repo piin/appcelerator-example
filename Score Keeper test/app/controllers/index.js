@@ -1,4 +1,3 @@
-
 $.index.backgroundImage = backgroundImage;
 
 // Add points
