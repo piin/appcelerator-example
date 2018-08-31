@@ -1,5 +1,8 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<Button class="button">Add</Button>
+		<View class="formView">
+			<TextField class="field" hintText="Nombre"></TextField>
+		</View>
 	</Window>
 </Alloy>

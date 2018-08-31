@@ -1,15 +1,21 @@
 ".container": {
-	backgroundColor:"white"
+	backgroundColor:"white",
+	layout: "vertical"
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+".formView": {
+	height: "160px",
+	layout: "horizontal",
+	borderColor: "gray"
 }
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+".field": {
+	top: 30,
+	left: 20,
+	color: "black"
+}
+
+".button":{
+	right: 30,
+	top: 30,
 }
