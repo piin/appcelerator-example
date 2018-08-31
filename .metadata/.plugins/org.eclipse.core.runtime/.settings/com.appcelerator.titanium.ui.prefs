@@ -1,9 +1,0 @@
-=run
-LAST_LAUNCH_TIMESTAMP=1535740941191
-Persistence\:launchMode=run
-Persistence\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.2D7C42A5-0D5B-44D7-AFF6-28DB1DCED6F7
-Score\ Keeper\ test\:launchMode=run
-Score\ Keeper\ test\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.BDA40625-F9A2-49FA-96A0-5F5F2007DABF
-eclipse.preferences.version=1
-preference.show.console.onError=false
-preference.studio.perspective.version=103

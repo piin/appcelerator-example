@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Score Keeper test/app/controllers/persistence&apos; to &apos;persistence.js&apos;" description="Rename resource &apos;persistence&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="app/controllers/persistence" name="persistence.js" stamp="1535734544347" updateReferences="true"/>
-</session>
