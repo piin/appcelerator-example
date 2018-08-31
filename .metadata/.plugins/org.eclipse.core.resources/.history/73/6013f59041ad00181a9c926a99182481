@@ -1,0 +1,13 @@
+// 
+function getInfo() {
+	return 'Hi';
+}
+
+function set() {
+	
+}
+
+exports.info = {
+	get: getInfo,
+	set: setInfo
+};

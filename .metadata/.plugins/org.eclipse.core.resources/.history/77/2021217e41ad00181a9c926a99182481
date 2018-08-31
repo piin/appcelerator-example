@@ -1,0 +1,8 @@
+// 
+function getInfo() {
+	return 'Hi';
+}
+
+exports.info = {
+	get: getInfo
+};

@@ -1,0 +1,15 @@
+// 
+function getInfo() {
+	return 'Hi';
+}
+
+function setInfo() {
+	
+}
+
+exports.info = {
+	get: getInfo,
+	set: setInfo
+};
+
+exports.set = set;

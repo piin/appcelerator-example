@@ -1,0 +1,24 @@
+// 
+function createData() {
+	return 'Hi';
+}
+
+function readData() {
+	
+}
+
+function updateData() {
+	
+}
+
+function deleteData() {
+	
+}
+// 1
+exports.info = {
+	create: createData,
+	read: readData,
+	update: updateData,
+	delete: deleteData
+};
+

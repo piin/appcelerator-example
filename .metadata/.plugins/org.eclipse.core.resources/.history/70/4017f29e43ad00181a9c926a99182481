@@ -1,0 +1,39 @@
+// Persistence the info in sql lite
+// DB name: sksettings.sqlite
+// DB location: assets/sksettings.sqlite
+
+/**
+ * Add data in the DB
+ */
+function createData() {
+	return 'Hi';
+}
+
+/**
+ * Get data from the DB
+ */
+function readData() {
+	
+}
+
+/**
+ * Update data from the DB
+ */
+function updateData() {
+	
+}
+
+/**
+ * Delete data from the DB
+ */
+function deleteData() {
+	
+}
+
+exports.info = {
+	create: createData,
+	read: readData,
+	update: updateData,
+	delete: deleteData
+};
+
