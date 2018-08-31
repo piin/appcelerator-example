@@ -10,6 +10,9 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
+// Persistence
+var persistence = require('persistence');
+
 
 // added during app creation. this will automatically login to
 // ACS for your application and then fire an event (see below)

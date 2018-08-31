@@ -1,8 +1,8 @@
 <Alloy>
 	<Window class="container">
-		<Button class="button">Add</Button>
+		<Button class="button" onClick="onAdd">Add</Button>
 		<View class="formView">
-			<TextField class="field" hintText="Nombre"></TextField>
+			<TextField id="nameTextField" class="field" hintText="Name"></TextField>
 		</View>
 	</Window>
 </Alloy>
