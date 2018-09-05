@@ -39,6 +39,21 @@ function createDevObj(item) {
 	return { id:id, name: name };
 }
 
+/**
+ * 
+ * @param {String} name
+ */
+function setDev(name) {
+	setup();
+	
+	var query = db.execute("INSERT INTO devs (name) VALUES (?)",name);
+	var lastInsertRow = db.lastInsertRowId;
+	db.close();
+	
+	return lastInsertRow;
+}
+
 exports.devs = {
-	get: getDevs
+	get: getDevs,
+	set: setDev
 };

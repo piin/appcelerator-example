@@ -1,6 +1,14 @@
+
 ".container": {
 	backgroundColor:"white",
 	layout: "vertical"
+}
+
+".title": {
+	top: "25",
+	font: {
+		fontWeight: "bold"
+	}
 }
 
 ".formView": {
@@ -15,7 +23,21 @@
 	color: "black"
 }
 
-".button": {
-	right: 30,
-	top: 30,
+".devsButton": {
+	top: 20,
+	left: 10
+}
+
+".interBar": {
+	width: "77%"
+}
+
+".addButton": {
+	right: 10,
+	top: 20,
+}
+
+".navigationBar": {
+	layout: "horizontal",
+	height: 70
 }

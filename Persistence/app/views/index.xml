@@ -1,6 +1,12 @@
 <Alloy>
 	<Window class="container">
-		<Button class="button" onClick="onAdd">Add</Button>
+		<Label class="title"> Developers </Label>
+		<View class="navigationBar">
+			<Button class="devsButton" onClick="openDevsView"> Devs </Button>
+			<View class="interBar"></View>
+			<Button class="addButton" onClick="onAdd">Add</Button>
+		</View>
+		
 		<View class="formView">
 			<TextField id="nameTextField" class="field" hintText="Name"></TextField>
 		</View>
