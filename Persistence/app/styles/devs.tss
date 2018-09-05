@@ -14,3 +14,25 @@
 	top: 20,
 	right: 10
 }
+
+".navigationBar": {
+	layout: "horizontal",
+	height: 70
+}
+
+".switch": {
+	top: 25,
+	left: 10
+}
+
+".deleteLabel": {
+	top: 30,
+	left: 5,
+	font: {
+		fontSize: 12
+	}
+}
+
+".interBar": {
+	width: "57%"
+}

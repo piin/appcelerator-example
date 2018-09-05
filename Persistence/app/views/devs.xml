@@ -1,8 +1,15 @@
 <Alloy>
 	<Window class="container" exitOnClose="true" id="devsContainer">
-		<Button class="closeButton" onClick="close" >Close</Button>
+		<View class="navigationBar">
+			<Switch id="shouldDelete"class="switch"></Switch>
+			<Label class="deleteLabel"> Delete</Label>
+			<View class="interBar"></View>
+			<Button class="closeButton" onClick="close" >Close</Button>
+		</View>
+		
+		
 		<Label class="title"> Developers List</Label>
-		<ListView id="devsList">
+		<ListView id="devsList" onItemclick="selectedItem">
 			<ListSection name="element">
 				
 			</ListSection>
