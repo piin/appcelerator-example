@@ -1,0 +1,16 @@
+".container": {
+	backgroundColor:"white",
+	layout: "vertical"
+}
+
+".title": {
+	top: 15,
+	font: {
+		fontWeight: "bold"
+	}
+}
+
+".closeButton": {
+	top: 20,
+	right: 10
+}

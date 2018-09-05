@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container" exitOnClose="true" id="devsContainer">
+		<Button class="closeButton" onClick="close" >Close</Button>
+		<Label class="title"> Developers List</Label>
+		<ListView id="devsList">
+			<ListSection name="element">
+				
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

@@ -2,7 +2,7 @@
 	<Window class="container">
 		<Label class="title"> Developers </Label>
 		<View class="navigationBar">
-			<Button class="devsButton" onClick="openDevsView"> Devs </Button>
+			<Button class="devsButton" onClick="openDevsView"> List</Button>
 			<View class="interBar"></View>
 			<Button class="addButton" onClick="onAdd">Add</Button>
 		</View>
