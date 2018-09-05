@@ -2,38 +2,43 @@
 // DB name: persistence.sqlite
 // DB location: assets/persistence.sqlite
 
+var db = setUpDB();
+
 /**
- * Add data in the DB
+ * Get db instance
+ * if db is null instance it else use the current value
  */
-function createData() {
-	var db = Ti.Database.open("persistence");
+function getDB() {
+	db = db != null ? db : setUpDB();
+	db = openDB();
+	return db;
 }
 
 /**
- * Get data from the DB
+ * Set up DB, Try to call this method once
+ * when load the application.
+ * @return : Installed DB
  */
-function readData() {
-	return 'Hi';
+function setUpDB() {	
+	return Ti.Database.install('persistence.sqlite','persistence');
 }
 
 /**
- * Update data from the DB
+ * Open db in order to work with it
  */
-function updateData() {
-	
+function openDB() {
+	return Ti.Database.open("persistence");
 }
 
 /**
- * Delete data from the DB
+ * Close DB, always call this function when finish to use the db
  */
-function deleteData() {
-	
+function closeDB() {
+	db.close();
 }
 
 exports.info = {
-	set: createData,
-	get: readData,
-	put: updateData,
-	del: deleteData
+	db: getDB,
+	close: closeDB
 };
 
